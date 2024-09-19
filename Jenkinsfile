@@ -12,6 +12,7 @@ pipeline {
             steps{
                 git url: "https://github.com/Harshan300/django-notes-app.git", branch: "main"
                 echo "Aaj toh Linke"
+                echo "Harshan "
             }
         }
         stage("Build & Test"){
